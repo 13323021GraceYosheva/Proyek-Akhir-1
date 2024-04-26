@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light-gray:#F2F2F2;
+    --dark-primary-green:#015108;
+    --primary-green:#118613;
+    --light-primary-green:#C4F1C5;
+    --light-white:#EEF6EE;
+    --light-purple:#7114E8;
+}
+/* Background */
+.bg-light-gray{
+    background: var(--light-gray);
+}
+.bg-light-primary-green{
+    background: var(--light-primary-green);
+}
+.bg-dark-green{
+    background: var(--dark-primary-green);
+}
+.bg-light-purple{
+    background: var(--light-purple);
+}
+.bg-light-white{
+    background: var(--light-white);
+}
